@@ -1,0 +1,17 @@
+Source: smssend
+Section: utils
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), jq, moreutils
+Standards-Version: 4.5.1
+Homepage: https://github.com/Spoje-NET/smssend/
+Rules-Requires-Root: no
+Vcs-Git: git@github.com:Spoje-NET/smssend.git
+Vcs-Browser: https://github.com/Spoje-NET/smssend.git
+
+Package: smssend
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, php-vitexsoftware-ease-core, php-cli, composer-debian, php-hspdev-huaweiapi
+Description: E5180s-22 message sender
+ Send SMS using E5180s-22 Huawei by commandline or URL

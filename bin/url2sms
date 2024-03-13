@@ -1,0 +1,5 @@
+#!/bin/sh
+
+php -S :8000 /usr/lib/smssend/url2sms.php
+
+

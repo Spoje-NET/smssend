@@ -1,0 +1,32 @@
+{
+    "name": "spojenet/smssend",
+    "description": "E5180s-22 message reader",
+    "type": "project",
+    "require": {
+        "hsp-dev/huawei-api": "dev-main",
+        "vitexsoftware/ease-core": "dev-main"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "2.0.x-dev",
+        "phpunit/phpunit": "11.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SmsSend\\": "src/SmsSend"
+        }
+    },
+    "authors": [
+        {
+            "name": "CyberVitexus",
+            "email": "info@vitexsoftware.cz"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/Spoje-NET/php-hspdev-huaweiapi.git"
+        }
+    ],    
+    "minimum-stability": "dev"
+}

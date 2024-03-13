@@ -1,0 +1,10 @@
+.env
+/vendor/
+/nbproject/private/
+/.vscode/
+/nbproject/
+/debian/.debhelper/
+/debian/smssend/
+/debian/debhelper-build-stamp
+/debian/smssend.substvars
+/debian/smssend.debhelper.log

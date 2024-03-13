@@ -1,0 +1,8 @@
+src/*.php /usr/lib/smssend/
+src/SmsSend/*.php /usr/lib/smssend/SmsSend/
+debian/conf/composer.json    usr/lib/smssend/
+
+
+
+
+

@@ -1,0 +1,36 @@
+{
+  "name": "spojenet/smssend",
+  "description": "E5180s-22 message reader",
+  "type": "project",
+  "require": {
+    "deb/ease-core": "*",
+    "deb/huaweiapi": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vítězslav Dvořák",
+      "email": "info@vitexsoftware.cz"
+    }
+  ],
+  "config": {
+    "vendor-dir": "/var/lib/composer/smssend"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "SmsSend\\": "src/SmsSend"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "/usr/share/php/EaseCore/"
+    },
+    {
+      "type": "path",
+      "url": "/usr/share/php/HuaweiApi/"
+    }
+  ],
+  "version": "0.1.0"
+}
