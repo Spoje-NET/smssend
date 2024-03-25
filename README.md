@@ -13,3 +13,5 @@ sudo apt install smssend
 ```
 
 Default config file `/etc/smssend/smssend.env`
+
+See also https://github.com/Spoje-NET/Sms-Input
