@@ -43,6 +43,7 @@ class Sms extends \Ease\Sand
         if (!empty($this->message) && !empty($this->number)) {
             $this->sendMessage();
         }
+        $this->setObjectName();
     }
 
     /**

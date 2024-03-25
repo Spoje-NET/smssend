@@ -1,6 +1,8 @@
 Sms Send
 ========
 
+E5180s-22 message sender
+
 installation 
 ------------
 
@@ -12,7 +14,19 @@ sudo apt update
 sudo apt install smssend
 ```
 
-Default config file `/etc/smssend/smssend.env`
+Configuration
+-------------
+
+
+
+
+Usage
+-----
+
+```shell
+smscli -n 739778202 -m "It works!"
+```
+
 
 HTTP Access
 -----------
