@@ -1,4 +1,4 @@
-smssend (0.1.1) UNRELEASED; urgency=low
+smssend (0.1.2) UNRELEASED; urgency=low
 
   [ Vítězslav Dvořák ]
   * Initial release. Closes: #nnnn
@@ -6,4 +6,7 @@ smssend (0.1.1) UNRELEASED; urgency=low
   [  ]
   * Apache support added
 
- --  <vitezslav.dvorak@spojenet.cz>  Mon, 25 Mar 2024 17:28:05 +0100
+  [  ]
+  * Json format forced for http
+
+ --  <vitezslav.dvorak@spojenet.cz>  Mon, 25 Mar 2024 17:48:51 +0100
