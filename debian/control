@@ -15,3 +15,12 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}, php-vitexsoftware-ease-core, php-cli, composer-debian, php-hspdev-huaweiapi
 Description: E5180s-22 message sender
  Send SMS using E5180s-22 Huawei by commandline or URL
+
+Package: smssend-apache
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, smssend, apache2
+Description: E5180s-22 message sender for apache configuration
+ Send SMS using E5180s-22 Huawei via URL
+
+

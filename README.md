@@ -14,4 +14,10 @@ sudo apt install smssend
 
 Default config file `/etc/smssend/smssend.env`
 
+HTTP Access
+-----------
+
+install the `smssend-apache` package to be able send your messages on /smssend/?contact=NUMBER&message=some%20nice
+
 See also https://github.com/Spoje-NET/Sms-Input
+

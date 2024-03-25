@@ -1,5 +1,9 @@
-smssend (0.1.0) UNRELEASED; urgency=low
+smssend (0.1.1) UNRELEASED; urgency=low
 
+  [ Vítězslav Dvořák ]
   * Initial release. Closes: #nnnn
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 13 Mar 2024 16:20:27 +0100
+  [  ]
+  * Apache support added
+
+ --  <vitezslav.dvorak@spojenet.cz>  Mon, 25 Mar 2024 17:28:05 +0100
