@@ -1,4 +1,4 @@
-smssend (0.1.2) UNRELEASED; urgency=low
+smssend (0.2.2) UNRELEASED; urgency=low
 
   [ Vítězslav Dvořák ]
   * Initial release. Closes: #nnnn
@@ -9,4 +9,7 @@ smssend (0.1.2) UNRELEASED; urgency=low
   [  ]
   * Json format forced for http
 
- --  <vitezslav.dvorak@spojenet.cz>  Mon, 25 Mar 2024 17:48:51 +0100
+  [  ]
+  * Debian composer config fix
+
+ --  <vitezslav.dvorak@spojenet.cz>  Mon, 25 Mar 2024 18:07:19 +0100
