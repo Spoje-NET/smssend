@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "451e13b4c10a9a33c5b615fe7bd8337f",
+    "content-hash": "d956e7c0e4af3d3ea6d499eaa9956d3e",
     "packages": [
         {
             "name": "hsp-dev/huawei-api",
@@ -639,16 +639,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.0.x-dev",
+            "version": "2.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "a66e75d9c1880e6cc7ebc39900683cf66b09263b"
+                "reference": "41600c8379eb5aee63e9413fe9e97273e25d57e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a66e75d9c1880e6cc7ebc39900683cf66b09263b",
-                "reference": "a66e75d9c1880e6cc7ebc39900683cf66b09263b",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/41600c8379eb5aee63e9413fe9e97273e25d57e4",
+                "reference": "41600c8379eb5aee63e9413fe9e97273e25d57e4",
                 "shasum": ""
             },
             "require": {
@@ -691,13 +691,9 @@
                 {
                     "url": "https://github.com/phpstan",
                     "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2023-12-20T14:54:02+00:00"
+            "time": "2025-08-04T19:17:37+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2120,13 +2116,12 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "hsp-dev/huawei-api": 20,
-        "vitexsoftware/ease-core": 20,
-        "phpstan/phpstan": 20,
-        "phpunit/phpunit": 20
+        "phpunit/phpunit": 20,
+        "vitexsoftware/ease-core": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
