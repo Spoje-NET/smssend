@@ -7,7 +7,7 @@
         "vitexsoftware/ease-core": "dev-main"
     },
     "require-dev": {
-        "phpstan/phpstan": "2.1.22",
+        "phpstan/phpstan": "2.1.25",
         "phpunit/phpunit": "12.3.11"
     },
     "license": "MIT",
